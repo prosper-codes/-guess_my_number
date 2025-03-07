@@ -1,6 +1,3 @@
-You can make the title bigger by applying some CSS styles to it. Here’s an updated version of the `README.md` file, where I've added instructions to style the title in a larger font.
-
----
 
 # Guess the Number Game
 
