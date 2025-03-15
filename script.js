@@ -55,13 +55,13 @@ document.querySelector('.again').addEventListener('click', function () {
   score = 20;
   secretNumber = Math.trunc(Math.random() * 20) + 1;
 
-  // document.querySelector('.message').textContent = 'Start guessing...';
   displayMessage('Start guessing...');
   document.querySelector('.score').textContent = score;
   document.querySelector('.number').textContent = '?';
   document.querySelector('.guess').value = '';
 
-  document.querySelector('body').style.backgroundColor =rgb(102, 90, 172);
+  // Reset background color to original
+  document.querySelector('body').style.backgroundColor = '#2f12d7';
   document.querySelector('.number').style.width = '15rem';
 });
 
